@@ -1,0 +1,40 @@
+# this application
+.csscomb.json
+production
+# ftpconfig.js
+src/style.css
+src/js/main.js
+
+# gulp
+*.log
+node_modules
+build
+*.node
+components
+coverage
+*.orig
+.idea
+sandbox
+test/out-fixtures/*
+test/watch-*.txt
+gulp.1
+
+# MacOS
+.DS_Store
+tags
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# wordpress
+wordpress/wp-config.php
