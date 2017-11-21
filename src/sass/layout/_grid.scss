@@ -90,7 +90,6 @@ section#hero {
 
 section#leistungen div.images {
   display: flex;
-  height: 300px;
   justify-content: space-between;
   margin-left: 20px;
   margin-right: 20px;
@@ -100,6 +99,7 @@ section#leistungen div.images {
     border-radius: 10px;
     height: 300px;
     width: 300px;
+    margin: 20px;
     
     div {
       height: 200px;
