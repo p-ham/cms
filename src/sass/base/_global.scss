@@ -89,7 +89,7 @@ header {
     margin-right: 20px;
     display: flex;
     justify-content: space-between;
-    div {
+    div.newspost {
       display: block;
       background-color: #eee;
       border-radius: 10px;
@@ -107,7 +107,29 @@ header {
 }
 
 #referenzen {
-  height: 300px;
+  div {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    div.reference{
+      align-items: center;
+      flex-direction: column;
+      width: 300px;
+      border-radius: 10px;
+      background-color: #eee;
+      padding: 20px;
+      margin-bottom: 20px;
+      img {
+        height: 64px;
+        width: 64px;
+        border-radius: 50%;
+      }
+      q {
+        text-align: center;
+      }
+    }
+  }
 }
 
 footer {
