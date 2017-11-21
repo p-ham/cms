@@ -1,0 +1,16 @@
+@media (max-width: 768px){
+    section#hero {
+        p, a {
+            margin-left: 20px;
+            grid-column-start: anfang;
+            grid-column-end: ende;
+          }
+    }
+
+    #leistungen {
+        .images {
+            flex-direction: column;
+            align-items: center;
+        }  
+    }
+}
