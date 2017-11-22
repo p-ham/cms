@@ -19,6 +19,8 @@ header {
     font-size: 1.5em;
     color: black;
     text-decoration: none;
+
+    display: block;
   }
 
   .active {
@@ -101,6 +103,8 @@ header {
         margin-bottom: 10px;
       }
       p {
+        text-align: justify;
+        line-height: 1.5em;
         padding: 15px;
       }
     }
@@ -155,4 +159,10 @@ section#leistungen div.images{
   #consulting {
     background-image: url("../../images/consulting.png");
   }
+}
+
+button.hamburger {
+  display: none;
+
+  z-index: 500;
 }

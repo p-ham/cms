@@ -54,17 +54,23 @@ header {
     grid-column-end: mitte;
   }
   nav {
-    grid-row-start: navbar;
-    grid-row-end: navbar;
-    grid-column-start: mitte;
-    grid-column-end: ende;
-
     ul {
       display: flex;
       justify-content: space-around;
       li {
         display: inline;
       }
+    }
+  }
+}
+
+@media (min-width: 993px) {
+  header {
+    nav {
+      grid-row-start: navbar;
+      grid-row-end: navbar;
+      grid-column-start: mitte;
+      grid-column-end: ende;
     }
   }
 }

@@ -4,7 +4,9 @@
   "description": "a basic gulp template for web development",
   "main": "index.js",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "hamburgers": "^0.9.1",
+    "node-sass": "^4.7.2"
   },
   "devDependencies": {
     "browser-sync": "^2.18.12",

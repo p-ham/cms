@@ -1,10 +1,30 @@
-@media (max-width: 768px){
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 48px;
+    }
+
+    #leistungen h1,
+    #news h1,
+    #referenzen h1 {
+        font-size: 2em;
+
+        text-align: center;
+    }
+
+    #hero p span {
+        font-size: 2.5em;
+    }
+
+    #hero a span {
+        font-size: 1.5em;
+    }
+
     section#hero {
         p, a {
             margin-left: 20px;
             grid-column-start: anfang;
             grid-column-end: ende;
-          }
+        }
     }
 
     section {
@@ -12,5 +32,74 @@
             flex-direction: column;
             align-items: center;
         }  
+    }
+
+    nav {
+        top: 67px;
+    }
+
+    nav.open {
+        height: calc(100vh - 67px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 993px) {
+    nav {
+        top: 84px;
+    }
+
+    nav.open {
+        height: calc(100vh - 84px);
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        grid-template-columns: [anfang] 100% [mitte] 0% [ende];
+        
+        position: relative;
+    }
+
+    button.hamburger {
+        display: block;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    nav {
+        position: absolute;
+        right: 0;
+
+        height: 0;
+        width: 60%;
+
+        background: #FFFFFF;
+
+        transition: 0.5s;
+    }
+
+    nav > ul {
+        display: none;
+
+        flex-direction: column;
+        
+        position: absolute;
+        height: 100%;
+        width: 100%;
+
+        text-align: center;
+    }
+
+    header nav > ul li {
+        transition: 0.25s;
+
+        opacity: 0;
+    }
+
+    header nav.open > ul li {
+        opacity: 1;
     }
 }
