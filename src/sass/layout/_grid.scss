@@ -96,23 +96,29 @@ section#hero {
 
 section#leistungen div.images {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: 20px;
   margin-right: 20px;
+
+  a {
+    flex: 0 1 300px;
+    height: 300px;
+    margin: 0 20px;
+  }
 
   div.imagebox {
     background-color: #eeeeee;
     border-radius: 10px;
-    height: 300px;
-    width: 300px;
-    margin: 20px;
+    height: 100%;
+    width: 100%;
     
     div {
-      height: 200px;
-      width: 200px;
-      margin: 20px auto 0 auto;
+      height: calc(100% - 104px);
+      width: auto;
+      margin: 20px auto;
       background-position: center center;
-      background-size: cover;
+      background-size: contain;
+      background-repeat: no-repeat;
     }
   }
 }

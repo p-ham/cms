@@ -5,7 +5,7 @@ html {
 
 header {
   h1 {
-    margin: 15px 0 5px 15px;
+    margin: 15px 70px 5px 15px;
     color: #009ee0;
     font-size: 64px;
   }
@@ -68,7 +68,7 @@ header {
     color: #009ee0;
     font-size: 2.5em;
     margin-top: 60px;
-    margin-left: 10px;
+    margin-left: 40px;
     margin-bottom: 40px;
   }
 }
@@ -85,12 +85,23 @@ header {
   }
 }
 
+#about {
+  p {
+    display: block;
+    background-color: #eee;
+    border-radius: 10px;
+
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
 #news {
   div {
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     div.newspost {
       display: block;
       background-color: #eee;
@@ -99,13 +110,12 @@ header {
       margin: 20px;
       h1 {
         font-size: 1.5em;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin: 25px;
       }
       p {
         text-align: justify;
         line-height: 1.5em;
-        padding: 15px;
+        margin: 25px;
       }
     }
   }
@@ -116,7 +126,7 @@ header {
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     div.reference{
       align-items: center;
       flex-direction: column;
@@ -132,6 +142,8 @@ header {
       }
       q {
         text-align: center;
+
+        margin-top: 15px
       }
     }
   }
@@ -139,7 +151,7 @@ header {
 
 footer {
   background-color: #009ee0;
-  height: 300px;
+  height: 70px;
   color: white;
   p {
     padding-top: 30px;
@@ -165,4 +177,38 @@ button.hamburger {
   display: none;
 
   z-index: 500;
+}
+
+div.image_circle {
+  height: 250px;
+  width: 250px;
+
+  margin: 50px auto 50px auto;
+
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #009EE0;
+
+  background-image: url("../../images/portrait.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#about {
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+        
+    margin: 50px 25px;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+
+    margin: 50px 25px;
+  }
 }

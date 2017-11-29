@@ -6,4 +6,5 @@
 @import 'base/global';
 @import 'layout/grid';
 @import 'base/mobile';
-@import "../../node_modules/hamburgers/_sass/hamburgers/hamburgers";
+@import 'hamburger/hamburgers.scss';
+@import 'hamburger/_base.scss';

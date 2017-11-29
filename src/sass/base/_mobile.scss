@@ -41,6 +41,19 @@
     nav.open {
         height: calc(100vh - 67px);
     }
+
+    #news div div.newspost,
+    #referenzen div div.reference {
+        width: 100%;
+    }
+
+    section#leistungen div.images {
+        align-items: initial;
+    }
+
+    section#leistungen div.images a {
+        margin: 20px 0;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 993px) {

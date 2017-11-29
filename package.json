@@ -6,6 +6,7 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "hamburgers": "^0.9.1",
+    "mysql": "^2.15.0",
     "node-sass": "^4.7.2"
   },
   "devDependencies": {
